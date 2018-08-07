@@ -1,37 +1,711 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/xljzdxf/xljzdxf.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/xljzdxf/xljzdxf.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/nav.css" />
+	<link rel="stylesheet" href="css/banner.css" />
+	<link rel="stylesheet" href="css/navfooter.css">
+	<title>Document</title>
+</head>
+<body>
+	<!-- 顶部渐变色 -->
+    <div style="width:100%;height:47px"
+        <div class="bgtop"></div>
+    <!-- 导航栏 -->
+        <div class="nav">
+        <div class="navs">
+            <!-- 左侧 -->
+            <div class="navleft">
+                <!-- 首页 -->
+                <div id="shouye">
+                    <img src="images/z_icon1.jpg" class="aa">
+                    <span>首页</span>
+                </div>
+                <!-- 手机版 -->
+                <div id="shoujiban">
+                    <img src="images/z_icon2.jpg" class="aa">
+                    <span>手机版</span>
+                    <img src="images/z_icon4.jpg">
+                    <div class="touming"></div>
+                    <!-- 二级 -->
+                    <img src="images/z_app.png" class="shoujibanpic">
+                </div>
+                <!-- 游戏 -->
+                <div id="youxi">
+                    <img src="images/z_icon3.jpg" class="aa">
+                    <a href="pages/mxk.html"><span>游戏</span></a>
+                    <img src="images/z_icon4.jpg">
+                    <div class="touming"></div>
+                    <!-- 游戏二级栏 -->
+                    <div class="youxipic">
+                        <!-- 左侧 -->
+                        <div class="youpicleft">
+                            <img src="images/z_youxi.png" class="iconyouxi">
+                            <div class="youxipic1">
+                                <img src="images/z_pic1.jpg">
+                                <p>《镇魂街OL》</p>
+                            </div>
+                            <div class="youxipic2">
+                                <div>
+                                    <img src="images/z_pic2.jpg">
+                                    <span>我大范</span>
+                                </div>
+                                <div>
+                                    <img src="images/z_pic3.jpg">
+                                    <span>的范围</span>
+                                </div>
+                                <div>
+                                    <img src="images/z_pic4.jpg">
+                                    <span>欧文积</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 右侧 -->
+                        <div class="youpicright">
+                            <img src="images/z_xinyou.png" class="iconyouxi">
+                            <p>众神之下<span>HOT</span></p>
+                            <p>悬空城<span>HOT</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 中部 -->
+            <div id="navmiddle">
+                <div class="denglu">登录</div>
+                <div class="zhuce">立即注册</div>
+                <div class="gerenzhongxin">
+                    <span>个人中心</span>
+                    <img src="images/z_icon4.jpg">
+                    <div class="touming"></div>
+                    <div class="gerenzhongxin_1">
+                        <p>我是读者</p>
+                        <p>我是作者</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 右侧 -->
+            <div id="navright">
+                <ul id="navright1">
+                    <li>
+                        <span>通知
+                            <img src="images/z_icon4.jpg"></span>
+                            <div class="touming"></div>
+                        <div class="gerenzhongxin_1 navright11">
+                            <p>漫画更新&nbsp;&nbsp;0</p>
+                            <p>系统消息&nbsp;&nbsp;0</p>
+                            <p>评论回复&nbsp;&nbsp;0</p>
+                            <p>@我的消息&nbsp;&nbsp;0</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span>书架
+                            <img src="images/z_icon4.jpg"></span>
+                            <div class="touming"></div>
+                        <div class="shujia">
+                            <img src="images/z_shujia2.png">
+                        </div>
+                    </li>
+                    <li>
+                        <span>充值
+                            <img src="images/z_icon4.jpg"></span>
+                            <div class="touming"></div>
+                        <div class="gerenzhongxin_1 navright11">
+                            <p>vip充值</p>
+                            <p>妖气币充值</p>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="pages/cmj.html"><span style="border:0">论坛</span></a>
+                    </li>
+                </ul>
+                <ul id="navright2">
+                    <li>
+                        <span>作者福利
+                            <img src="images/z_icon4.jpg"></span>
+                            <div class="touming"></div>
+                        <div class="gerenzhongxin_1 navright22">
+                            <p>漫画大赛</p>
+                            <p>月票折现</p>
+                            <p>月票排名榜</p>
+                            <p>有妖气大学</p>
+                            <p>梦想激励</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span>投稿签约
+                            <img src="images/z_icon4.jpg"></span>
+                            <div class="touming"></div>
+                        <div class="gerenzhongxin_1 navright22">
+                            <p>我是读者</p>
+                            <p>我是作者</p>
+                        </div>
+                    </li>
+                    <li><span style="border:0">上传漫画</span></li>
+            </div>
+        </div>  
+        </div>
+    </div>
+	<div class="banner">
+		<div class="bannerNav">
+			<ul>
+				<li><a href="#"></a></li>
+				<li><a href="#">排行榜</a></li>
+				<li><a href="pages/z_youyaoqifenlei.html">分类</a></li>
+				<li><a href="#">更新</a></li>
+				<li><a href="#">VIP漫画</a></li>
+				<li><a href="#">订阅</a></li>
+				<li><a href="#">少年</a></li>
+				<li><a href="#">少女</a></li>
+			</ul>
+			<button></button>
+			<input type="text" placeholder="雏蜂" />
+		</div>
+		<div id="blun">
+			<ul class="bbo">
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb1.jpg"></a></li>
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb2.jpg"></a></li>
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb3.jpg"></a></li>
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb4.jpg"></a></li>
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb5.jpg"></a></li>
+			</ul>
+			<ul class="bba">
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb1.jpg"></a></li>
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb2.jpg"></a></li>
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb3.jpg"></a></li>
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb4.jpg"></a></li>
+				<li class="bboli"><a href="javascript:;"><img src="images/h_lb5.jpg"></a></li>
+			</ul>
+		</div>
+		<aside>
+			<div class="cartoonTab">
+				<h1>全站最热 
+					<a href="javascript:;">少女</a>
+					<a href="javascript:;">少年</a>
+					<a href="javascript:;">全部</a>
+				</h1>
+				<div class="total">
+					<ul>
+						<li id="o">
+							<span class="top1">1</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top1">2</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top1">3</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">4</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">5</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">6</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">7</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">8</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">9</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">10</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="youngBoy">
+					<ul>
+						<li id="o">
+							<span class="top1">1</span>
+							<span class="name">少年</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>少年</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top1">2</span>
+							<span class="name">少年</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top1">3</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">4</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">5</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">6</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">7</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">8</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">9</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>你好</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">10</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top2.jpg" alt="" />
+								<div class="des">
+									<h1>你好</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="youngGirl">
+					<ul>
+						<li id="o">
+							<span class="top1">1</span>
+							<span class="name">少女</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top3.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top1">2</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top3.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top1">3</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top3.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">4</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">5</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">6</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">7</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">8</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">9</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>镇魂街</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<span class="top">10</span>
+							<span class="name">镇魂街</span>
+							<span class="type">少年</span>
+							<div class="car">
+								<img src="images/h_top1.jpg" alt="" />
+								<div class="des">
+									<h1>少女</h1>
+									<p><span>·少年</span><span>·魔幻</span></p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+	</div>
+	<div class="content">
+		<h1><span class="img"></span><span>超人气漫画</span><a href="javascript:;">全部</a><a href="javascript:;">少年</a><a href="javascript:;">少女</a></h1>
+		<figure>
+			<button id="left">&lt;</button>
+			<button id="right">&gt;</button>
+			<div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+				<div class="mh">
+					<img src="images/h_img1.jpg" alt="" />
+				<figcaption><span>荐</span><h1>灶神4917</h1><p>少女/搞笑/生活/纯爱</p></figcaption>
+				</div>
+			</div>	
+		</figure>
+		<aside>
+			<div>
+				<h1><span>上升最快</span><a href="">全部</a>
+				<a href="">少年</a>
+				<a href="">少女</a></h1>
+				<ul>
+					<li>
+						<span class="sort">1</span>
+						<span class="cName"><a href="javascript:;">心之茧</a></span>
+						<span class="cType">纯爱</span>
+					</li>
+					<li>
+						<span class="sort">2</span>
+						<span class="cName"><a href="javascript:;">星star</a></span>
+						<span class="cType">少年</span>
+					</li>
+					<li>
+						<span class="sort">3</span>
+						<span class="cName"><a href="javascript:;">星star</a></span>
+						<span class="cType">少年</span>
+					</li>
+					<li>
+						<span class="sortOther">4</span>
+						<span class="cName"><a href="javascript:;">星star</a></span>
+						<span class="cType">少年</span>
+					</li>
+					<li>
+						<span class="sortOther">5</span>
+						<span class="cName"><a href="javascript:;">星star</a></span>
+						<span class="cType">少年</span>
+					</li>
+					<li>
+						<span class="sortOther">6</span>
+						<span class="cName"><a href="javascript:;">星star</a></span>
+						<span class="cType">少年</span>
+					</li>
+					<li>
+						<span class="sortOther">7</span>
+						<span class="cName"><a href="javascript:;">星star</a></span>
+						<span class="cType">少年</span>
+					</li>
+					<li>
+						<span class="sortOther">8</span>
+						<span class="cName"><a href="javascript:;">星star</a></span>
+						<span class="cType">少年</span>
+					</li>
+				</ul>
+				<button>查看更多&gt;</button>
+			</div>
+		</aside>
+	</div>
+	 <div class="footer">
+        <div class="foote">
+           <div class="footerleft">
+                <ul>
+                    <li style="size:16px;"><b>关于我们</b></li>
+                    <li>关于有妖气</li>
+                    <li>法律声明</li>
+                    <li>招聘启事</li>
+                    <li>更多问题</li>
+                </ul>
+                <ul>
+                    <li style="size:16px;"><b>商务合作</b></li>
+                    <li>市场合作</li>
+                    <li>商务合作</li>
+                    <li>友情链接</li>
+                </ul>
+                <ul>
+                    <li style="size:16px;"><b>联系我们</b></li>
+                    <li>在线客服</li>
+                    <li>官方微博</li>
+                    <li>意见反馈</li>
+                    <li>手都网景</li>
+                </ul>
+           </div>
+           <div class="footermiddle">
+               <div class="erweima">
+                   <img src="images/z_app.png">
+                   <p>扫码下载APP</p>
+               </div>
+               <div class="erweima2">
+                   <img src="images/z_weixin.png">
+                   <p>有妖气官方微博</p>
+               </div>
+           </div>
+           <div class="footerright">
+               <p style="margin-top: 35px">&copy;2018&nbsp;有妖气http://www/u17.com&nbsp;北京四月星空网络技术有限公司&nbsp;版权所有</p>
+               <p>京ICP证：14013667&nbsp;网络文化经营许可证：京网文[2017]5583-660号</p>
+               <p style="margin-top: 35px"><img src="images/z_ghs.png"><span>京公网安备 11010502030487号</span></p>
+           </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/tablun.js">	
+</script>
+<script type="text/javascript" src="js/banner.js">
+</script>
+<script src="js/navfooter.js"></script>
+</html>
